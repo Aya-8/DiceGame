@@ -10,6 +10,15 @@ public class DiceGame
         int dice_2 = random.Next(1, 7);
         int total = dice_1 + dice_2;
 
+        String name;
+
+        Console.WriteLine("What is your name ?");
+        Console.Write(">");
+        name = Console.ReadLine();
+
+        Console.WriteLine("Hello, " + name + "!");
+
+
         Console.WriteLine("Rolling dice...");
         Console.WriteLine("Die 1:" + dice_1);
         Console.WriteLine("Die 2:" + dice_2);
