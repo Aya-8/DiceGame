@@ -14,6 +14,16 @@ public class DiceGame
         Console.WriteLine("Die 1:" + dice_1);
         Console.WriteLine("Die 2:" + dice_2);
         Console.WriteLine("Total value: " + total);
+
+        if (total > 7)
+        {
+            Console.WriteLine("You won!");
+        }
+        else
+        {
+            Console.WriteLine("You lost.");
+        }
+
     }
 
 }
