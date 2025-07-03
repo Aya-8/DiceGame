@@ -26,11 +26,11 @@ public class DiceGame
 
         if (total > 7)
         {
-            Console.WriteLine("You won!");
+            Console.WriteLine(name + " won!");
         }
         else
         {
-            Console.WriteLine("You lost.");
+            Console.WriteLine(name + " lost.");
         }
 
     }
